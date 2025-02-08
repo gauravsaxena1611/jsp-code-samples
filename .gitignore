@@ -1,14 +1,13 @@
+/*
+!*.md
+!*/
+
 **/HELP.md
 **/target/
-target/
-src/
-images/
-.mvn/
-.idea/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-src/main/resources/db/**.db
-!**/src/test/**/target/
+**/.mvn/
+**/.idea/
+/src/
+/images/
 
 ### STS ###
 .apt_generated
@@ -20,17 +19,9 @@ src/main/resources/db/**.db
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
-*.xml
-mvnw.cmd
-mvnw
-*.iws
-*.iml
-*.ipr
-**/.idea
-**/*.iws
-**/*.iml
-**/*.ipr
+**/*.iws/
+**/*.iml/
+**/*.ipr/
 
 ### NetBeans ###
 /nbproject/private/
